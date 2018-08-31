@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #f7f7f7;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+
+  .content {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  button {
+    border: none;
+    background: #5c636e;
+    color: #f7f7f7;
+    outline: none;
+    padding: 10px;
+    transition: background 200ms ease-in-out;
+  }
+  
+  button:hover {
+    background: #f8b500;
+  }
+
+  input {
+    padding: 10px;
+    outline-color: #f8b500;
+  }
+
+  img {
+    width: 150px;
+    box-shadow: 2px 3px 10px #393e46;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px dotted #5c636e;
+    background: #f8b500;
+    padding: 5px;
+  }
+  
+  .name,
+  .flag {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #5c636e;
+    color: #f8b500;
+    text-transform: uppercase; 
+    text-shadow: 2px 3px 5px #393e46;
+  }
+  
+  .flag {
+    margin-top: 20px;
+  }
+  
